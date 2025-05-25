@@ -7,7 +7,6 @@ Una aplicación web tipo PWA desarrollada con **Flask** que permite gestionar un
 ## 🚀 Características
 
 - 🔐 Inicio y cierre de sesión
-- 📝 Agregar, editar y eliminar contactos
 - 💾 Persistencia en archivo JSON
 - 📱 Interfaz tipo PWA (instalable como app)
 - 🛡️ Control de sesión y seguridad básica
