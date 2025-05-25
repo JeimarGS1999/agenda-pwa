@@ -30,3 +30,4 @@ cd agenda-pwa
 python -m venv venv
 venv\Scripts\activate  # En Windows
 pip install flask
+python app.py
