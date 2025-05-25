@@ -1,0 +1,25 @@
+# Entorno virtual (Windows)
+venv/
+ENV/
+env/
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log y bases de datos locales
+*.log
+*.sqlite3
+*.db
+
+# Archivos de entorno / claves
+.env
+
+# Archivos temporales
+*.bak
+*.tmp

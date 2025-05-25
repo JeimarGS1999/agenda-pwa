@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda PWA</title>
+  <link rel="manifest" href="/static/manifest.json">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <h1>Agenda Semanal</h1>
+  <p>Bienvenido, {{ username }} | <a href="/logout">Cerrar sesión</a></p>
+  <select id="day">
+    <option>Lunes</option>
+    <option>Martes</option>
+    <option>Miércoles</option>
+    <option>Jueves</option>
+    <option>Viernes</option>
+    <option>Sábado</option>
+    <option>Domingo</option>
+  </select>
+
+  <input type="time" id="hour">
+  <textarea id="note" placeholder="Escribe tu nota..."></textarea>
+  <button id="save">Guardar Nota</button>
+
+  <h2>Notas Guardadas</h2>
+  <ul id="notes-list"></ul>
+</body>
+</html>
