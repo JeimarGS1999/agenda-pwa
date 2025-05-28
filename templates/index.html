@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Agenda PWA</title>
-  <link rel="manifest" href="/static/manifest.json">
-  <link rel="stylesheet" href="/static/styles.css">
-  <script src="/static/app.js" defer></script>
+  <link rel="manifest" href="{{ url_for('static', filename='styles.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
 </head>
 <body>
   <h1>Agenda Semanal</h1>
